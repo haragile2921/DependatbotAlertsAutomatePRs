@@ -5,6 +5,9 @@ updates:
     schedule:
       interval: "daily"
     groups:
+      all-versions:
+        patterns:
+          - "*"
       all-security:
         applies-to: security-updates
         patterns:
